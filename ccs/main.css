@@ -1,0 +1,166 @@
+/* Estilos para el formulario */
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%; /* Añade esta línea */
+    margin: 0 auto; /* Añade esta línea para centrar el formulario */
+}
+
+/* Estilos para el formulario */
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #9d1e1e; /* Cambia el color del borde */
+    border-radius: 10px; /* Aumenta el radio del borde */
+    width: 30%;
+    margin: 0 auto;
+    background-color: #E9ECEF; /* Añade un color de fondo */
+}
+
+/* Estilos para la página principal */ 
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #9d1e1e; /* Cambia el color del texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+/* Estilos para la entrada de edad */
+/* Añade tus estilos aquí */
+
+
+/* Estilos para la entrada de edad */
+input[type="number"] {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el campo de teléfono */
+input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para la plantilla del número de teléfono */
+input[type="tel"]::placeholder {
+    color: #999;
+}
+
+input[type="tel"]::-webkit-input-placeholder {
+    color: #999;
+}
+
+input[type="tel"]::-moz-placeholder {
+    color: #999;
+}
+
+input[type="tel"]:-ms-input-placeholder {
+    color: #999;
+}
+
+input[type="tel"]::-ms-input-placeholder {
+    color: #999;
+}
+
+input[type="tel"]::placeholder-shown {
+    text-indent: 5px;
+}
+
+input[type="tel"]::-moz-placeholder-shown {
+    text-indent: 5px;
+}
+
+input[type="tel"]:-ms-input-placeholder-shown {
+    text-indent: 5px;
+}
+
+input[type="tel"]::-ms-input-placeholder-shown {
+    text-indent: 5px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ad2929;
+}
+
+h2 {
+    text-align: center; /* Centra el texto */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #6b0d0d; /* Cambia el color del texto */
+    margin-bottom: 20px; /* Añade un poco de espacio debajo del título */
+}
+
+.welcome {
+    font-size: 1.5em;
+    color: #19137a;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.userData {
+    font-size: 1.2em; /* Hace que el texto sea un 20% más grande que el tamaño de fuente base */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333; /* Cambia el color del texto a gris oscuro */
+    text-align: left; /* Centra el texto */
+    margin-bottom: 10px; /* Añade un poco de espacio debajo de cada línea de información */
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
